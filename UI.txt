@@ -1,0 +1,353 @@
+HTML, CSS and Javascript
+
+Pre-requisite: Basic computer
+Duration: 45Days
+Shyam Cordinator: 8247601157
+
+
+What is a software?
+- Software which can reduce the human efforts.Will get quick solutions for the problems.
+
+What are the different types of applications we have in realtime?
+- Standalone apps
+	- An Application which need to be install in every user machine in order to use.
+	- One user at a time can be use that applications
+	- Examples: Mobile Apps, Windows Apps, Console Apps etc.
+- Distributed Apps
+	- An application which is not require to install in every user machine inorder to use.
+	- The application will be installed/hosted in "Server"(Machine) and we can access it with the help of client, server can be anything like Web Server/Application Server can be consumed by client and client is nothing but "Browser".
+	- Example: Web Applications
+- Service Based Apps
+	- These are used to provide the services to the existing application.
+	- Examples: Payment Gateway
+- IOT(Internet Of Things):
+	- An application which is having direct interaction with internet.
+	- Example: AC, Washing Machines, Alexa etc.
+
+Web Technologies:
+- A technology is used to build a kind of application development.
+- To build the web applications we use "Web Technologies".
+- There are two types of web technologies are avaible like
+	- Client Side Technology
+	- Server Side Technology: A technology which can be used to interact with the server and perform the CRUD operations with the DB. Examples: ASP.Net, JSP, JDBC etc. 
+
+Client Side Technology: 
+- The techonologies which are understandable by the browser.
+- By using this we are going to build two types of web pages like
+
+Static Web Page
+- The web page where it maintain same content for any user's request.
+- Example: Login pages, Home pages etc.
+- Technologies used to build static pages are like HTML, CSS, Bootstrap etc.
+
+Dynemic Web Page
+- For every user request if the content is created seperatly is called dynemic web page.
+- Examples: Every website once we login we will get the different content.
+- Technologies used to build dynemic web pages are Javascript, jQuery, Angular JS, Angular, React etc.
+
+HTML: It is used to format the content on the browser, how the content will be displayed on browser, It contain mainly Tags, Attributes and Elements.
+
+CSS: It is used to style the HTML elements, It contains mainly properties to apply the styles.
+
+Javascript: It is used to convert the static web designs into dynemic, changes the state of web page by applying different events and functionalities etc.
+--------------------------------------------------------------------------------------------------------------
+Notes:
+- A realtime web application is nothing but, the application where we can store the user's information permently.
+- To store that information we use "Database", a database where it contains information permently in the form of tables => Collection of Rows + Columns
+
+HTML:
+- It stands for Hyper Text Markup Language.
+- Hyper text is nothing but a text/content which is having "hyperlink".
+- Markup language is nothing but the text which is surrounded with "<>".
+- Browsers will only understands HTML.
+- The latest version of HTML is "HTML5".
+- Every HTML tag is approved by the company i.e. "W3C(World Wide Web Consortium)", it contains some standers for web application develoment.
+- Html is not a case sensitive, but all the tags should be created with lower case letters only.
+
+Verison History:
+Version		Year
+HTML 1		1990
+HTML 2 		1995
+HTML 3		1997
+HTML 4 		1997 - 2014
+HTML 5		2014 - latest
+
+What we have in HTML?
+HTML is the combination of three things mainly
+	- Tags
+	- Attributes
+	- Elements
+Tag:
+- it is nothing but which can be surrounded with "<>".
+- These tags are of two types 
+	- Open tag (<h1>)
+	- Closing tag (</h1>).
+
+Attribute:
+- It is used to provide the additional functionality/information for the HTML tags.
+- Always attributes/properties will be applied for open tags only.
+- Examples: align, style, border, value, type etc. 
+
+Elements:
+- An element is the combination of tags and attributes
+- These are of two types
+	- Normal Elements: Whcih is having complete Open tag + Attributes + Closing tags
+		Example: <h1 align="center">Welcome</h1>
+	- Void Elements: Which is having Open tag + Attributes.
+		Example: <input type="text">
+--------------------------------------------------------------------------------------------------------------
+Where to write HTML programs?
+- To write the HTML we have many options are avaible like
+	- Code Editor
+	- IDE(Integrated Development Environment)
+- Code Editors are used to write the code and for execution of code we will follow different approch, examples are like Notepad, Notepad++, Sublime, Brackets, Editplus etc.
+- IDE means where we will write the code and also we can execute it directly, examples are like Visual Studio Code, Visual Studio, Eclipse etc.
+Note: Mostly all client side application development will be with "Visual Studio Code".
+
+What is structure of HTML5 web page?
+<!DOCTYPE html>
+<html>
+ <head>
+    We will write meta information
+ </head>
+ <body>
+    Here we will have actual content which is used to display to the user
+ </body>
+</html>
+
+- <!DOCTYPE html> which tells the browser that which version of HTML document we are going to build.
+- Every HTML document will start with <html> tag, and it is divided into two parts with two tags like <head> and <body>.
+- <head> part of the html document will be used to define metadata information about the HTML pages.
+	- Write the styles
+	- Write the meta information like author, SEO, page refresh, redirections etc.
+	- script logics also can be implmeneted.
+- <body> this section is used to write the content for the users, so that user's will interact with the content on the browser.
+--------------------------------------------------------------------------------------------------------------
+- Headding tags: Used to specify the headding for the content, we have total  6 tags are presented like h1, h2, h3, h4, h5 and h6.
+- Paragraph: It is used to display a paragraph of text in the browser, to use this we use a tag i.e. <p>.
+
+HTML Links:
+- A link is used to provide the navigation for the HTML document.
+- Navigation is nothing but redirecting/sending request from one web page to another or with in the application also.
+- To implement the navigation we use <a>(Anchor tag).
+- Example: <a href="url">Link text</a>, where href stands for HyperLink Reference.
+- URl stands for "Unifrom Resource Locator".
+--------------------------------------------------------------------------------------------------------------
+Visual Studio Code:
+- It is an IDE(Intergrated Development Environment) tool.
+- It is used mainly to build client side web application development, by writing the code using HTML, CSS and Javsacript.
+- To build the client side applications we have different tools are available like
+	- Notepad
+	- Notepad++
+	- Sublime
+	- Atom
+	- Visual Studio Code
+	- Editplus
+	- Bracket
+	- Eclipse
+	- Visual Studio Edition etc.
+- But mostly according to the current industry we use "Visual Studio Code".
+Advantages:
+- Intellisence support
+- Git hub which is a Verison Control tool/ Source code Mangement tool, whcih is used to manage the code for the application and provide the sharing in between them.
+- Extension, these are used to add the additional features in order to build the web application in faster rate.
+- Write less and do more.
+- We can run the VS code in any Operating System.
+
+How to install Visual Studio Code:
+Step-1: Open the web site "https://code.visualstudio.com/"
+Step-2: Create the HTML file
+Step-3: Execute from browser.
+--------------------------------------------------------------------------------------------------------------Lists in HTML:
+- In HTML lists are used to display the collection of elemenents
+- There are three types of lists in HTML5
+	- Unordered List: <ul> - Unordered List and <li> - List Items.
+	- Ordered List: <ol> - Ordered List and <li> - List Items
+	- Definition List: It is used to display all the definitions, by using 
+		<dl>	-	Definition List	
+		<dt>	-	Defintion Term
+		<dd>	-	Data Definition
+Note:
+- <hr> tag is used to provide a horizantal line 
+- <li> - list item, <ol> - Ordered List, <ul> - Unordered List.
+- To create defintion list we use following tags like 
+	- <dl> - Definition List
+	- <dt> - Definition Term
+	- <dd> - Data Definition 
+- "type" attribute is used to provide different list style formats.
+- Any list can be created in any other list we call it as nested lists.
+--------------------------------------------------------------------------------------------------------------
+Tables in HTML:
+- It is used to display the data in the tabular format on the browser.
+- These are used to display a collection of tabular information like
+	- Cricket Scores
+	- Time tables
+	- Bank Account trasactions etc.
+- To create the table we use following tags like
+
+<table> - Used to represent the table
+<tr> - Used to represent the table row.
+<td> - Used to represent table data/column.
+<th> - Used to provide the headdings for the columns.
+
+- To work with the table we use following attributes like
+
+* border: Used to set the border for the table and default values are 1(with Border) and 0(no Border)
+* align: Used to align the table in center/right/left on the browser
+* colspan: Used to merge multiple columnnot singlemn.
+* rowspan: Used to merge multiple rows into single
+Note: Above two properties/ attributes will be applied for <td> tag by default.
+--------------------------------------------------------------------------------------------------------------
+Semantic Tags in HTML5:
+- Semantic elements have meaningful names which tells about type of the content.
+- Examples: header,footer, table, aside,nav etc.
+- In HTML5 we have many sematic tags are introduced like
+Tags:
+- article
+- aside
+- details
+- figcaption
+- figure
+- footer
+- header
+- main
+- mark
+- nav
+- section
+- style etc.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
