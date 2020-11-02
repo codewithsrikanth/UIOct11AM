@@ -1,3 +1,5 @@
+Github Link: https://github.com/codewithsrikanth/UIOct11AM
+
 HTML, CSS and Javascript
 
 Pre-requisite: Basic computer
@@ -215,6 +217,182 @@ Tags:
 - nav
 - section
 - style etc.
+--------------------------------------------------------------------------------------------------------------
+Text formatting tags:
+- These tags are used to format the text like bold, italic, underline,overline and line through etc. 
+List of formating tags are:
+Tags		Description
+------------------------------------------------------------------------------------
+<a>		-	Defines the Hyperlink
+<abbr>		-	Defined an abbrivated form of a longer word
+<acronym>	-	Deprecated(Outdated)
+<address>	-	Gives the contact information
+<applet>		- 	Deprecated(Outdated)
+<area>		-	Used to define within the image map
+<article>
+<aside>
+<audio>
+<b> -> <strong>
+<base>
+<basefont> 	-	Outdated
+<bdo>
+<caption>
+<center>		-	Outdated
+<code>
+<del>
+<dailogue> etc.
+--------------------------------------------------------------------------------------------------------------
+Attributes in HTML5:
+- An attribute is used to define additional information for the HTML elements.
+- There are different attributes are avaible based on the tags like
+- There are two types of attributes in HTML
+* Generic/Global: These attribute can be applied for any HTML tags.
+id	: 	It is used to provide unique identification for html element
+name	: 	It is used group related elements
+class	:	It is used to apply the list of CSS styles for the element 
+title	:	Used to provide title for the element
+style	:	Used to provide inline styles	
+
+* Sepecific: These can applied only for specific tags
+Link	-	href, title
+Img	-	src, width, height, alt
+table	-	border, align
+td	-	colspan, rowspan
+html	-	lang
+--------------------------------------------------------------------------------------------------------------
+Input elements and Forms in HTML5:
+- An input control is used to takes the input from the user and send it to the server.
+- In HTML5 there are many input controls are avaible like text,password,color,number, range etc.
+- syntax: <input type="type of control" id="" name=""/>
+- All the input controls are by default void elements,means we don't have open and closing and content.
+- Every input element is a inline element.
+- "id" is an attribute which gives unique identification for HTML elements.
+- The best practive to give the id is by using "Hungarion Notation".
+	TextBox		-	txt
+	RadioButton	-	rbtn
+	Button		-	btn
+	CheckBox		-	chk
+	DropDownList	-	ddl etc.
+- Every input element in HTML should be wrapped with the help of <form> tag.
+
+Controls		Description
+text		Used to create a TextBox
+password		Used to create a TextBox which accepts password as input.
+color		Used to create a control which will display color box
+range		Used to create a spinner 
+number		Used to create a slider which is having number range.
+date		Used to create date control
+email		Used to accept email data
+tel		Used to accept telephone number etc.
+
+Note: If any input control is not able to understable by the browser by default it will be converted into "TextBox".
+
+Attributes in Input controls: id, name, class, min, minlength, required, max,maxlenght etc.
+- Form tag is used to group the input controls.
+- Form tag will be having following advatages
+	- Send the data to the server by using "action" atribute.
+	- method attribute is used to specify "get/post" means used to send the data or 		retrive the data from server.
+	- We can perform validations as well.
+--------------------------------------------------------------------------------------------------------------
+HTML <head> tag:
+- It is used to maintain extra infromation about the html doument i.e. metadata.
+- head section will contains following tags like
+1) <title>	 : Used to provide the title for the page, title should be short and lessthen 65 charecters and if we give a proper title then when user search in search engine it will automatically highlighted.
+
+2) <base> : This element is used to define a base url for all the relative urls's that are contained in the website. Once we can give base url every request is taking that url and process it.
+
+3) <link> : This element is used to define the relationship between the current document nad other documents, mainly it is used to add the external css for the application.
+ 	<link rel="stylesheet" href=""/>
+
+4) <style> :  Used to provide css internal styles to represent better user interface.
+
+5) <meta> : 
+- <meta> tag is used to provide structured metadata such as document's keywords, description, author, charcter set, redirection etc.
+- <meta> data is not visible to the user, it is only for developers.
+
+6) <script> : It is used to add internal/external script for the application. Used to write javascript code for making html tags as dynemic in nature.
+
+7) <noscript>: It is used to define an alternative text to be dispayed when the user blocks the javascript code on the browser.
+--------------------------------------------------------------------------------------------------------------
+HTML5 new features:
+* HTML5 New Input Elements: 
+- color, date, datetime-local,email,month, number, range,search etc.
+
+*Canvas and SVG:
+- Canvas/SVG(Scallable Vector Graphics) can be used to draw the graphics, a graphic is nothing but the text is represented with an image. But if we want to use this we have to integrate Javascript.
+
+*Web Storage: 
+- The HTML 5's web storage us used to store some information locally on the user's computer.
+- It is much better than coockie, in html5 we have two types
+	- Local Storage: It is permement and store in the Harddisk.
+	- Session Storage: It is maintain the data until we close the browser.
+Note: This feature of HTML5 also need to run with the help of Javascript.
+
+*Drag and Drop feature:
+- It allows to drag and drop an element into another elements.
+
+
+* Mulitmedia Elements:
+- These are used to add the Audio/Video on the HTML web page.
+- To implement that we have <audio> and <video> tags.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
