@@ -314,6 +314,14 @@ HTML <head> tag:
 
 7) <noscript>: It is used to define an alternative text to be dispayed when the user blocks the javascript code on the browser.
 --------------------------------------------------------------------------------------------------------------
+Multimedia Elements in HTML5:
+- These are mainly used to add and audio or video tags on the HTML web page.
+- To add an audio/video file we use <audio> and <video> tag is required and it comes with following attributes like
+	- controls: It is used to add the play, pause, loop such kind of controls to run the app.
+	- loop: It is used to restart the audio/video again once if it is finished
+	- autoplay: Used to play the audio/video when it loaded for the first time.
+	- To add any audio/video file we use <source> tag
+
 HTML5 new features:
 * HTML5 New Input Elements: 
 - color, date, datetime-local,email,month, number, range,search etc.
@@ -330,11 +338,127 @@ Note: This feature of HTML5 also need to run with the help of Javascript.
 
 *Drag and Drop feature:
 - It allows to drag and drop an element into another elements.
-
+Note: This feature of HTML5 also need to run with the help of Javascript.
 
 * Mulitmedia Elements:
 - These are used to add the Audio/Video on the HTML web page.
 - To implement that we have <audio> and <video> tags.
+--------------------------------------------------------------------------------------------------------------
+CSS(Cascading Style Sheets):
+- CSS is the language we use to style the HTML elements.
+- HTML is just used to define the data, By default all the HTML elements are not provide any default styles like alignment,background colors, fore ground colors etc.
+- Inorder to provide the styles for the HTML elements we use "CSS".
+- CSS will contains list of properties those are used to assign the values for the HTML elements. 
+- To write the CSS we have 3 approches are avaible like
+	- Inline CSS(Not used in realtime)
+	- Internal CSS
+	- External CSS
+
+Inline CSS:
+- If the CSS styles are specified in the html open tag by using "style" attribute we call it as Inline styles.
+- Example: <h1 style="background-color: yellowgreen;">Example with Inline CSS</h1>
+- In realtime we never use inline style to style the HTML elements.
+
+Internal CSS: 
+- In this we will write the CSS styles in the HTML document by <style> tag under the <head> section of the document.
+- These styles are only for that html document and if we want to apply same styles in another html documents then it is not helpful.
+
+External CSS:
+- In this css style are created in a seperate file and save the file with an extension "*.css".
+- Once we define styles by using external css we can use across any web page by using <link> tag.
+- Mainly these styles are used in the application development.
+- Example: <link rel="stylesheet" href="./mystyles.css">
+- In that "rel" attribute is used to defines the relationship with the file.
+-------------------------------------------------------------------------------------------------------------
+Comments in HTML and CSS:
+- In HTML to write the comments we use <!-- comment  -->
+- In CSS to write the comments we use /* comment */
+- Comments gives us a clear idea about what we are doing in the application.
+- These comments are only used for developers to understand the code.
+- Comments are completly ignored by the browser
+
+Selectors in CSS:
+- Selectors are used to select the HTML elements from the document.
+- There are different selectors are available to select the HTML elements.
+- These selectors are like
+	- ID Selector
+	- Class Selector
+	- Tag name selector etc.
+* Tagname selector: It is used to find the HTML tags by using the tag name and then will write the properties.
+	Syntax: h1{color:red;}
+
+* class selector: It is used to specify the style by using any name and later can be apply with any other html tags. To implment this before the class name we use dot(.)
+	Syntax: .C1{color:red}
+
+*ID selector: This selector is used to find the specific single element from the HTML document and then we will apply the styles.To write the ID selector we use "#".
+- According to good programming practice we should have unique ID for every HTML element.
+	Syntax: #p1{color:red;}
+
+Note: 
+- Among ID, Class and tagname selectors "ID selector" is having "High Priority".
+- Among Class and tagname selector "Class Selector" is having more priority.
+- Tag name selector is having less priority among all.
+
+* In General in CSS we use class selector mostly to style the HTML elements.
+* In General in Javascirpt we use id selector mostly to find the element from the DOM.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
