@@ -401,6 +401,98 @@ Note:
 
 * In General in CSS we use class selector mostly to style the HTML elements.
 * In General in Javascirpt we use id selector mostly to find the element from the DOM.
+--------------------------------------------------------------------------------------------------------------
+CSS Properties:
+- Generally to apply the styles like colors, borders, text foramtting etc. we need to have some properties are required which is having a value to apply to the HTML elements.
+- Syntax: 
+	selector{property:value; property:value;...}
+- Example of properties: colors, text formatting, borders, margins, height and width, padding etc.
+
+* Colors: These properties are used to set the background and fore ground colors for a HTML element, It contain  two properties like "background-color" and "color" and we can give any valid color name inorder to apply for the HTML tag.
+
+* Text Properties: These properties are used to apply the text effects like chnaging the text color, text size and font properties.
+
+CSS Box Model:
+- Every HTML element by default comes with 3 properties like
+	- Margin: Out side the border
+	- Border: Which is a wrapper for the content
+	- Padding: It is the space from border to the content.
+Note: In CSS these 3 properties combination is called as "Box Model".
+--------------------------------------------------------------------------------------------------------------* List Properties: These are used to change the list style types and to add the icons for the lists.
+
+* span tag: This is an inline element which is occupying only content width of the page not the entire width of the web page.
+
+*div: This is used to occupy the entire width of the web page. It is also known as block element.
+- In web page every content is contains a region these regions are divided based on the <div> tags only.
+
+float: These are used to apply the floating effects for the HTML elements 
+- float: left/right/none and clear: both/left/right/none
+
+Background properties: These properties are used to set the backgrounds for the elements.
+- background-color
+- background-image
+- background-size
+- background-repeat
+- background-position
+- background-attachment
+--------------------------------------------------------------------------------------------------------------
+Positions in CSS:
+- These properties are used to provide the position for an HTML element on the browser.
+- There are different values we have like
+	position: static(default)/absolute/relative/fixed(It won't be moved);
+- z-index is used to apply multiple elements on on another, we can give valid number for that so based on that order elements are displayed.
+- display is a css property used to convert any element into block to inline and inline to block.
+
+--------------------------------------------------------------------------------------------------------------
+Selector:
+- In CSS we have different selctors like
+	- tagname
+	- class name
+	- id
+	- tagname with desendent	x y z
+	- tagnames with same level (x+y)
+	- all tags - *
+	- attribute - x[attribute] etc.
+- Apart from above there are two more selectors are avaible llike
+	- pseudo classes
+		- : link
+		- : forms
+		- : position etc.
+	- pseudo elements		
+		- :: before
+		- :: after
+		- :: first-line
+		- :: first-letter
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
