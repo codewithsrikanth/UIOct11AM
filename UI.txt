@@ -463,6 +463,56 @@ Selector:
 		- :: after
 		- :: first-line
 		- :: first-letter
+--------------------------------------------------------------------------------------------------------------
+Javascript:
+HTML: It is a markup language which can be used to format the content on the browser. 
+CSS: Which can be used to provide the styles for the HTML elements.
+- Both HTML and CSS can be used to build static applications, to make it dynemic we use "Javascript".
+
+Website
+	-> index.html (Main page)
+	-> CSS 
+		-> index.css (Main styles page)
+	-> JS
+		-> index.js (Main JS file)
+- To write the Javascript we have two options
+	- Internal: Within the html file by using  <script>
+	- External: Write in another file and save with an extension *.js and include in HTML by using <script> tag. There are two places we can write the <script> tag
+		- On <head> section
+		- On <body> section
+
+Note:
+- Javascript doen't have compiler so that will get exceptions if anything wrong.
+- Javascript is not supported with datatypes, so that to the same variable we can store any type of value.
+- Javascirpt is a pure case sensitive programming language.
+- To verify the version of javascript we use ECMAScript 6
+
+
+Varaibles:
+- A variable is a named memory location used to store the values.
+- We can have different values like numbers, string, null, undefined, boolean etc.
+- To create a variable we use "var/let" keyword.
+- To display some information using javascript we have 3 options
+	- By using alert() - will be display a popup.
+	- By using document.write() - will be directly displayed on browser.
+	- By using console.log() - will be display in console section of browser,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
